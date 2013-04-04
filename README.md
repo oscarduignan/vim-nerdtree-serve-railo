@@ -16,5 +16,6 @@ It requires that there is a command on your path called "serve_railo" that accep
 3. Add the installation directory to your PATH
 4. Create a file there called `serve_railo.bat` with the following contents (you will need to customise the paths to suit your setup)
 
-    cd D:\railo4
-    "C:\Program Files\Java\jre7\bin\java.exe" -DSTOP.PORT=8887 -DSTOP.KEY=railo -Xms256M  -Xmx1024M -jar start.jar -Drespath=%1
+```
+cd D:\railo4
+"C:\Program Files\Java\jre7\bin\java.exe" -DSTOP.PORT=8887 -DSTOP.KEY=railo -Xms256M  -Xmx1024M -jar start.jar -Drespath=%1

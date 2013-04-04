@@ -12,7 +12,7 @@ Limited in that you can only have the one site running at a time, and configurat
 It requires that there is a command on your path called "serve_railo" that accepts one parameter that is the path to start railo express in (it's webroot). Steps I took to achieve:
 
 1. Install Railo Express
-2. Use the method detailed here to customise it so it serves files from a directory you pass in when you start it up
+2. Use the method detailed here, http://www.joshuairl.com/blog/2012/09/12/running-railo-from-any-directory-in-windows-7/, to customise it so it serves files from a directory you pass in when you start it up
 3. Add the installation directory to your PATH
 4. Create a file there called `serve_railo.bat` with the following contents (you will need to customise the paths to suit your setup)
 
